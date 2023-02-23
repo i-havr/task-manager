@@ -7,8 +7,6 @@ import { AppBarStyled } from './AppBar.styled';
 export const AppBar = () => {
   const { isLoggedIn } = useAuth();
 
-  console.log(isLoggedIn);
-
   return (
     <AppBarStyled>
       <Navigation />
